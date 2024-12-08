@@ -15,13 +15,24 @@ How It Works
     Read the input images.
  2. Convert to Grayscale:
     Convert the images to grayscale for binary mask creation.
- 3. Create a Binary Mask:
+
+    ![image](https://github.com/user-attachments/assets/e902e85b-8980-4659-a442-b7a9a94d3074)
+
+ 4. Create a Binary Mask:
     Uses a threshold to identify the background (white) and foreground (black).
-  4. Invert the Mask:
+
+    ![image](https://github.com/user-attachments/assets/e10cf1ef-3e06-4e36-ab2a-298f8025aeb1)
+
+  6. Invert the Mask:
     The background becomes transparent while preserving the foreground.
-  5. Save as Transparent PNG:
+
+![image](https://github.com/user-attachments/assets/7a0051ce-1c09-4df4-8ff4-4c02a159f2e4)
+
+  8. Save as Transparent PNG:
     The processed image is saved with a transparent background and black lines.
-  6. Visualize the Steps:
+
+
+  10. Visualize the Steps:
     The script displays:
      a. Original Image
      b. Grayscale Image
