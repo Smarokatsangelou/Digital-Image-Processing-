@@ -2,7 +2,13 @@ The aim of this project is to develop a Python-based solution for removing the b
 
 The proposed project removed the background from the dataset mentioned above using Jupyter Notebook and Python. The libraries imported for this purpose are OS-Lib, cv2, used for image manipulation, matplotlib to check the results of the image transformations as we go and numpy. The final output is saved in .png file format so there is no background for easier further image manipulation or even conversion from pixel to vector format in AutoCAD. 
 
+![image](https://github.com/user-attachments/assets/240efe2c-45af-4d14-8aa5-3ad5297f4969)
+
+
 Through this methodology, the initial RBG images are first converted into grayscale, a binary mask is created corresponding to the image and lastly the image background is removed and the output saved. 
+
+![image](https://github.com/user-attachments/assets/a8e80bf4-9166-49af-b995-ef96fe49bdc7)
+
 
 How It Works
  1. Load the Image:
