@@ -38,4 +38,5 @@ How It Works
      b. Grayscale Image
      c. Binary Mask
      d. Transparent Image with Black Lines
+
 Lastly, the Peak Signal to Noise Ratio is calculated for all images in the dataset to measure whether we have loss of quality during the background removal process. The median PSNR value for all 1784 1024x1024 images is around 33db, indicating good quality retainement during the processing. 
